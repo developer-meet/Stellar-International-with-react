@@ -1,0 +1,66 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Volkhov */
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --sim-orange-color: #DF9242;
+    --sim-blue-color: #181E4B;
+    --sim-gray-color: #121212;
+    --white-color: #FFFFFF;
+}
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+/* common css */
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.volkhov {
+  font-family: "Volkhov", serif;
+}
+
+.sim-orange-color{
+    color: var(--sim-orange-color);
+}
+
+/* Home -sec */
+
+.home-sec{
+    min-height: 800px;
+    background-image: url(./assets/home-page-banner.png);
+    background-size: cover;
+    /* background-position-y: 75%; */
+    padding: 20px 0 0px 15px !important;
+}
+
+.header-logo-sec img{
+    width: 350px;
+}
+
+.header-menu-sec{
+    background-color: white;
+    height: 40px !important;
+    width: 800px;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 0px 4px 4px 0  #00000040 !important;
+}
+
+
+.header-menu-sec ul li{
+    list-style-type: none;
+    /* height: 30px !important; */
+}
+
+.header-menu-sec ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    
+}
